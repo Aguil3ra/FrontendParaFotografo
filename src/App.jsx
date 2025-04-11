@@ -9,7 +9,7 @@ import UploadPhoto from "./pages/UploadPhoto";  // Importar UploadPhoto desde pa
 import RegisterUser from "./pages/RegisterUser/RegisterUser";
 import viteLogo from "/vite.svg";
 import Autenticacion from "./pages/Autenticacionloginsegura/Autenticacion";
-import EditProfile from "./pages/EdicionPerfil/EdicionPerfil";
+import EditProfile from "./pages/EdicionDePerfil/EdicionPerfil";
 
 const App = () => {
   return (
