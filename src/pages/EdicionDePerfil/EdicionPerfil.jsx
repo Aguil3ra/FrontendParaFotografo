@@ -123,7 +123,7 @@ const EditProfile = () => {
                     onChange={handleChange}
                 />
 
-                <button className={styles.buton} type="submit">
+                <button className={styles.button} type="submit">
                     Guardar Cambios
                 </button>
             </form>

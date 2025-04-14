@@ -8,20 +8,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .titulo {
     text-align: center;
     margin-bottom: 1.5rem;
-    color: #fdfbfb;
+    color: #1a237e;
     font-size: 1.8rem;
     font-weight: bold;
+}
+
+.label {
+    font-weight: 600;
+    margin: 1rem 0 0.3rem;
+    color: #333333;
+    text-align: left;
 }
 
 .input {
@@ -30,7 +32,11 @@
     border-radius: 10px;
     border: 1px solid #ccc;
     font-size: 1rem;
-    transition: border-color 0.3s ease;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input:hover {
+    border-color: #90caf9;
 }
 
 .input:focus {
@@ -39,14 +45,7 @@
     box-shadow: 0 0 5px rgba(33, 150, 243, 0.5);
 }
 
-.label {
-    font-weight: 600;
-    margin: 1rem 0 0.3rem;
-    color: #f1efef;
-    text-align: left;
-}
-
-.buton {
+.button {
     padding: 12px;
     background: linear-gradient(to right, #4caf50, #2196f3, #ffeb3b);
     border: none;
@@ -56,10 +55,10 @@
     font-size: 1rem;
     cursor: pointer;
     margin-top: 1.5rem;
-    transition: transform 0.2s, opacity 0.2s;
+    transition: background 0.3s ease, transform 0.2s, opacity 0.2s;
 }
 
-.buton:hover {
+.button:hover {
     opacity: 0.9;
     transform: scale(1.02);
 }
