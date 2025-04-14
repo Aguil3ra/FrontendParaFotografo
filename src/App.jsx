@@ -9,7 +9,7 @@ import UploadPhoto from "./pages/UploadPhoto";  // Importar UploadPhoto desde pa
 import RegisterUser from "./pages/RegisterUser/RegisterUser";
 import viteLogo from "/vite.svg";
 import Autenticacion from "./pages/Autenticacionloginsegura/Autenticacion";
-import EditProfile from "./pages/EdicionDePerfil/EdicionPerfil";
+import EdicionPerfil from "./pages/EdicionDePerfil/EdicionPerfil";
 
 const App = () => {
   return (
@@ -28,7 +28,8 @@ const App = () => {
         <Link to="/RegisterUser">Registro de usuario</Link>
         
         <Link to="/Autenticacion">Autenticación Segura</Link>
-        <Link to="/EditProfile">Editar Perfil</Link>
+        <Link to="/EdicionPerfil">Editar Perfil</Link>
+
 
       </nav>
       <Routes>
@@ -38,7 +39,7 @@ const App = () => {
         <Route path="/uploadphoto" element={<UploadPhoto />} /> {/* Ruta correcta para UploadPhoto */}
         <Route path="/RegisterUser" element= {<RegisterUser/>}/>
         <Route path="/Autenticacion" element={<Autenticacion />} />
-        <Route path="/EdicionPerfil" element={<EditProfile />} />
+        <Route path="/EdicionPerfil" element={<EdicionPerfil />} />
 
       </Routes>
     </BrowserRouter>
