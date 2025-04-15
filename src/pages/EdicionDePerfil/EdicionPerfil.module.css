@@ -2,9 +2,9 @@
     max-width: 600px;
     margin: 80px auto;
     padding: 2rem;
-    background-color: #ffffff;
+    background-color: #b33535;
     border-radius: 20px;
-    box-shadow: 0 0 20px rgba(241, 222, 195, 0.1);
+    box-shadow: 0 0 20px rgba(106, 234, 60, 0.762);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@
 .titulo {
     text-align: center;
     margin-bottom: 1.5rem;
-    color: #1a237e;
+    color: #fdf8fce1;
     font-size: 1.8rem;
     font-weight: bold;
 }
@@ -22,7 +22,7 @@
 .label {
     font-weight: 600;
     margin: 1rem 0 0.3rem;
-    color: #333333;
+    color: #f6f2ec;
     text-align: left;
 }
 
@@ -50,7 +50,7 @@
     background: linear-gradient(to right, #4caf50, #2196f3, #ffeb3b);
     border: none;
     border-radius: 12px;
-    color: #fff;
+    color: #3711f2;
     font-weight: bold;
     font-size: 1rem;
     cursor: pointer;
