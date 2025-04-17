@@ -4,7 +4,7 @@
     padding: 30px;
     background-color: #2c2c2c; /* Fondo más claro sobre fondo general oscuro */
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 10px rgba(179, 89, 89, 0.487);
   }
   
   .form {
@@ -26,7 +26,7 @@
     border-radius: 6px;
     font-size: 16px;
     background-color: #f9f9f9;
-    color: #333;
+    color: #d8ce04;
     outline: none;
     transition: border 0.2s ease;
   }
@@ -44,7 +44,7 @@
 
   .button {
     padding: 12px;
-    background-color: #4caf50;
+    background-color: #054708;
     color: white;
     font-size: 16px;
     font-weight: bold;
